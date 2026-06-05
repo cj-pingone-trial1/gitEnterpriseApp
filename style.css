@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  color: #f0f6fc;
+}
+
+nav a {
+  color: #8b949e;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 0.9rem;
+}
+
+nav a:hover {
+  color: #e6edf3;
+}
+
+main {
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  color: #8b949e;
+  margin-bottom: 24px;
+}
+
+button#get-started {
+  background: #238636;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button#get-started:hover {
+  background: #2ea043;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 32px 40px;
+  text-align: center;
+  flex: 1;
+}
+
+.card h3 {
+  color: #8b949e;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+.card .count {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #58a6ff;
+  margin-bottom: 4px;
+}
+
+.card p {
+  color: #8b949e;
+  font-size: 0.85rem;
+}
